@@ -1,3 +1,7 @@
+<script setup lang="ts">
+definePageMeta({ middleware: 'auth' })
+</script>
+
 <template>
   <div class="about">
     <h1 class="about__title">À propos</h1>
